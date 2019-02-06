@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title id="title">转账跳转中......</title>
+  <title id="title"> 转账跳转中，请稍等......</title>
  </head>
  <body>
   <script>
@@ -17,15 +17,15 @@
   if(userAgent.indexOf(wechat)!=-1){
    //微信
    window.location.href="static/wechat.png"
-  }else if(userAgent.indexOf(qq)!=-1){
+ // }else if(userAgent.indexOf(qq)!=-1){
    //QQ
-   window.location.href="static/qq.png"
+ // window.location.href="static/qq.png"
   }else if(userAgent.indexOf(alipay)!=-1){
    //支付宝
    window.location.href=alipayURL;
   }else{
    //不是支付宝、微信或QQ中的一个
-   alert("无法识别的客户端！请在QQ、微信或支付宝内打开！");
+   alert("无法识别的客户端！请在微信或支付宝内打开！");
   }
 </script>
   <div id="container">
