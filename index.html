@@ -10,7 +10,7 @@
  
   alipayURL="https://qr.alipay.com/fkx015429wt74zwdinqmwac";//从支付宝收款二维码里得到的URL
   
-  wechatURL="wxp://f2f0-cChco7iWIfMTkxQwSaQWLMTRDUP5NAS";//从微信收款二维码里得到的URL
+ // wechatURL="wxp://f2f0-cChco7iWIfMTkxQwSaQWLMTRDUP5NAS";//从微信收款二维码里得到的URL
     
   wechat = "MicroMessenger";
   alipay = "AlipayClient";
@@ -18,8 +18,8 @@
   userAgent = getUA();
   if(userAgent.indexOf(wechat)!=-1){
    //微信
- //window.location.href="static/wechat.jpg"
-   window.location.href=wechatURL;
+   window.location.href="static/wechat.jpg"
+   // window.location.href=wechatURL;
  // }else if(userAgent.indexOf(qq)!=-1){
    //QQ
  // window.location.href="static/qq.png"
